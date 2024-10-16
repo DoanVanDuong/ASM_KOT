@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment_ph46500</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_update_information">UpdateInformation</string>
+    <string name="title_activity_otp">OTP</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="login_text">Đăng nhập</string>
+    <string name="register_text">Đăng ký</string>
+    <string name="forgotpass_text">Quên mật khẩu?</string>
+    <string name="title_activity_choice_login">ChoiceLogin</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_manager">Manager</string>
+    <string name="title_activity_manage_category">ManageCategory</string>
+    <string name="title_activity_add_category">AddCategory</string>
+    <string name="title_activity_manage_product">ManageProduct</string>
+    <string name="title_activity_add_product">AddProduct</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_payment">Payment</string>
+</resources>

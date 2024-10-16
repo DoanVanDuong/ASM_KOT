@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"
+        />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CAMERA" />
+    <uses-permission android:name="android.permission.MANAGE_DEVICE_POLICY_CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Assignment_ph46500"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Payment.Payment"
+            android:exported="false"
+            android:label="@string/title_activity_payment"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".History.History"
+            android:exported="false"
+            android:label="@string/title_activity_history"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Profile.EditProfile"
+            android:exported="false"
+            android:label="@string/title_activity_edit_profile"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Profile.Profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Manager.AddProduct"
+            android:exported="false"
+            android:label="@string/title_activity_add_product"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Manager.ManageProduct"
+            android:exported="false"
+            android:label="@string/title_activity_manage_product"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Manager.AddCategory"
+            android:exported="false"
+            android:label="@string/title_activity_add_category"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Manager.ManageCategory"
+            android:exported="false"
+            android:label="@string/title_activity_manage_category"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Manager.Manager"
+            android:exported="false"
+            android:label="@string/title_activity_manager"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Cart.CartActi"
+            android:exported="false"
+            android:label="@string/title_activity_cart"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Account.ChoiceLogin"
+            android:exported="false"
+            android:label="@string/title_activity_choice_login"
+            android:theme="@style/Theme.Assignment_ph46500" /> <!-- <activity -->
+        <!-- android:name=".Account.Login" -->
+        <!-- android:exported="false" -->
+        <!-- android:label="@string/title_activity_login" -->
+        <!-- android:theme="@style/Theme.Assignment_ph46500" /> &lt;!&ndash; <activity &ndash;&gt; -->
+        <activity
+            android:name=".Account.Register"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Home_n_Product.Home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Assignment_ph46500" />
+
+        <activity
+            android:name=".Account.SplashScreen"
+            android:exported="true"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/Theme.Assignment_ph46500" />
+        <activity
+            android:name=".Account.Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Assignment_ph46500">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
